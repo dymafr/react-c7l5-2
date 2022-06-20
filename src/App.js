@@ -6,7 +6,8 @@ function App() {
   const [showCount, setShowCount] = useState(true);
 
   function handleClick() {
-    setCount(count + 1);
+    setCount((count) => count + 1);
+    setCount((count) => count + 1);
     setShowCount(!showCount);
   }
 
